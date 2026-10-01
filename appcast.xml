@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Supermail updates</title><item><title>Supermail 0.2.419</title><pubDate>Thu, 01 Oct 2026 00:37:44 GMT</pubDate><description>Install when you are ready to restart Supermail.</description><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/finishedgoods22/supermail-releases/releases/download/v0.2.419/Supermail.zip" length="5255721" type="application/zip" sparkle:version="419" sparkle:shortVersionString="0.2.419" sparkle:edSignature="RIc8vcqeFPiidmo1U2a28rnOmw74aRJGK5wcdB5RyzL+JG0na5DQRWlfgPMp1tcgFcPph4S80BP7QiO9DZWDCg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
+edSignature: 4klKkJXwsedoOiKl2vFqdab4VaC2YTxBZF7mEN8YTU8NvlYq6EDElec7vqMakX8JFCnZzmNh37mIanGSdoSUAg==
+length: 1002
+-->
