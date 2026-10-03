@@ -1,0 +1,164 @@
+{
+ "notes": [
+  {
+   "name": "advanced-search",
+   "title": "Search with Gmail's search options form",
+   "text": "The sliders button in search, or Cmd+K \u2192 Advanced Search, opens fields for From, To, Subject, dates, size and where to look.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "advanced-search.png"
+  },
+  {
+   "name": "aliases-are-me",
+   "title": "Mail from your other addresses says me",
+   "text": "Mail you send from another of your Gmail addresses, like sales@, now says \"me\" in conversations and the inbox, as in Gmail.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "aliases-are-me.png"
+  },
+  {
+   "name": "attachment-check",
+   "title": "Catch a forgotten attachment before it sends",
+   "text": "If your email says something is attached and nothing is, Supermail asks before sending. Settings \u2192 Writing turns it off.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "attachment-check.png"
+  },
+  {
+   "name": "colors",
+   "title": "Pick your colors",
+   "text": "Settings \u2192 Colors has background themes and separate colors for buttons, accounts and Super Labels.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "colors.png"
+  },
+  {
+   "name": "reply-from-address",
+   "title": "Replies go from the address mail came to",
+   "text": "Answer an email sent to another of your Gmail addresses and the reply goes from that one. On the Mac, \u2318\u21e7F picks a different one.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "reply-from-address.png"
+  },
+  {
+   "name": "settings-sync",
+   "title": "Your settings follow you",
+   "text": "Colors, swipes, shortcuts and your other choices now match on your Macs and iPhone through iCloud.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": null
+  },
+  {
+   "name": "signature",
+   "title": "See your Gmail signature in Settings",
+   "text": "Settings \u2192 your account shows the Gmail signature Supermail adds to every email you send.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "signature.png"
+  },
+  {
+   "name": "text-selection",
+   "title": "Pick the color of selected text",
+   "text": "Selected text in emails and drafts now uses your accent color. Pick another in Settings \u2192 Colors \u2192 Text selection.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "text-selection.png"
+  },
+  {
+   "name": "undo-send-time",
+   "title": "Choose how long Undo Send waits",
+   "text": "Settings \u2192 Writing sets 5, 10, 20 or 30 seconds to take back an email after you press Send. It follows you to your other devices.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "undo-send-time.png"
+  },
+  {
+   "name": "vacation-reminder",
+   "title": "See when your vacation responder is on",
+   "text": "A small reminder sits in the top bar while Gmail's vacation responder is on, with a quick way to turn it off.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "vacation-reminder.png"
+  },
+  {
+   "name": "whats-new",
+   "title": "See what's new in each update",
+   "text": "Cmd+K \u2192 What's New lists what each update changed, with a picture of each.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "whats-new.png"
+  },
+  {
+   "name": "labels",
+   "title": "Make a label right from L",
+   "text": "Type a new name in the label box to create that Gmail label. Z undoes any label you add or remove.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "labels.png"
+  },
+  {
+   "name": "search-sentence",
+   "title": "Search by typing a sentence",
+   "text": "Type \"quotes from Dana about the tubes\" and Supermail turns it into the right search. It runs on your Mac with Apple Intelligence.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "search-sentence.png"
+  },
+  {
+   "name": "smart-compose",
+   "title": "Smart Compose finishes your sentences",
+   "text": "Gray words suggest the rest of your sentence as you type. Press Tab to add them, or keep typing to skip them.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "smart-compose.png"
+  },
+  {
+   "name": "encrypted",
+   "title": "Your mail is locked on your Mac",
+   "text": "Supermail now encrypts the mail, drafts and pictures it keeps on your Mac. Nothing changes in how you use it.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": null
+  },
+  {
+   "name": "rich-text",
+   "title": "Bold, italics and lists in your emails",
+   "text": "Make words bold or italic, or start a list. Select words and paste a web address to turn them into a link.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "rich-text.png"
+  },
+  {
+   "name": "side-menu",
+   "title": "A side menu for every folder",
+   "text": "Open \u2630 at the top left for Sent, Drafts, Done, Spam, Trash and every Gmail label.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "side-menu.png"
+  },
+  {
+   "name": "picture-big",
+   "title": "Click a picture to see it big",
+   "text": "Pictures in emails open full size with a click. Attached pictures and PDFs show a preview too.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "picture-big.png"
+  },
+  {
+   "name": "select-many",
+   "title": "Act on many emails at once",
+   "text": "Press X or \u21e7J to pick several emails, then E, H, L or # handles all of them.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "select-many.png"
+  },
+  {
+   "name": "tutorial",
+   "title": "Learn the keys on a practice inbox",
+   "text": "Cmd+K \u2192 Tutorial walks you through the main shortcuts. It uses a practice inbox, so your real mail stays untouched.",
+   "version": "0.2.726",
+   "date": "10/3/26",
+   "picture": "tutorial.png"
+  }
+ ]
+}
