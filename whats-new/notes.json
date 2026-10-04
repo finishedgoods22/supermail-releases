@@ -1,6 +1,14 @@
 {
  "notes": [
   {
+   "name": "gray-accent-buttons",
+   "title": "Gray accents no longer dim your buttons",
+   "text": "With a gray accent, Cancel, Undo and other buttons now show in your text color instead of a gray that looked switched off.",
+   "version": "0.2.752",
+   "date": "10/4/26",
+   "picture": "gray-accent-buttons.png"
+  },
+  {
    "name": "advanced-search",
    "title": "Search with Gmail's search options form",
    "text": "The sliders button in search, or Cmd+K \u2192 Advanced Search, opens fields for From, To, Subject, dates, size and where to look.",
