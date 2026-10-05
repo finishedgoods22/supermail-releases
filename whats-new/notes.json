@@ -1,6 +1,22 @@
 {
  "notes": [
   {
+   "name": "private-settings-and-log",
+   "title": "Your settings and log stay encrypted",
+   "text": "Your email addresses, label names and log no longer sit in plain files or iPhone backups. Help \u2192 Privacy Policy opens our privacy page.",
+   "version": "0.2.793",
+   "date": "10/4/26",
+   "picture": "private-settings-and-log.png"
+  },
+  {
+   "name": "side-menu-settings",
+   "title": "Settings in the side menu",
+   "text": "Open \u2630 at the top left and Settings is right there, above Send Feedback.",
+   "version": "0.2.793",
+   "date": "10/4/26",
+   "picture": "side-menu-settings.png"
+  },
+  {
    "name": "gray-accent-buttons",
    "title": "Gray accents no longer dim your buttons",
    "text": "With a gray accent, Cancel, Undo and other buttons now show in your text color instead of a gray that looked switched off.",
