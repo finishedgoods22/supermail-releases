@@ -1,6 +1,854 @@
 {
  "notes": [
   {
+   "name": "addresses-show-as-links",
+   "title": "Web and email addresses look like links",
+   "text": "An address written out in an email now shows in your link color, even when the email styled it like plain text.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "addresses-show-as-links.png"
+  },
+  {
+   "name": "all-inboxes-tab",
+   "title": "All Inboxes is a tab",
+   "text": "With two accounts or more, All Inboxes sits left of Inbox in the top bar, with its count. Click it, or Tab to it.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "all-inboxes-tab.png"
+  },
+  {
+   "name": "all-inboxes-tab-no-icon",
+   "title": "All Inboxes reads like the other tabs",
+   "text": "The All Inboxes tab in the top bar is now just its name and count, like Inbox, with no icon in front.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "all-inboxes-tab-no-icon.png"
+  },
+  {
+   "name": "plain-text-quotes",
+   "title": "Quoted lines in plain emails read as quotes",
+   "text": "A plain-text reply's quoted email folds behind \"\u2022\u2022\u2022\" in the quote color, with no \">\" at the start of every line.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "plain-text-quotes.png"
+  },
+  {
+   "name": "quick-button-tips",
+   "title": "Button names show the moment you point",
+   "text": "Rest the pointer on an email's buttons, or the ones above an open email, and its name and key show right away.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "quick-button-tips.png"
+  },
+  {
+   "name": "unsubscribe-email-links",
+   "title": "Cmd+U finds unsubscribe links that send an email",
+   "text": "When a newsletter's only way off is an \"unsubscribe\" link that writes an email, Cmd+U now sends it instead of saying there's no link.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "unsubscribe-email-links.png"
+  },
+  {
+   "name": "up-arrow-stays-in-place",
+   "title": "The up arrow no longer jumps away",
+   "text": "In a conversation of long emails, the up arrow now steps back to the end of the email above instead of jumping to its top.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "up-arrow-stays-in-place.png"
+  },
+  {
+   "name": "drafts-marked-in-lists",
+   "title": "Drafts are marked in every list",
+   "text": "Rows with an unsent draft now say Draft, in search and every list, so you can tell drafts from emails you sent.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "drafts-marked-in-lists.png"
+  },
+  {
+   "name": "drop-file-on-draft-text",
+   "title": "Files dropped on your draft attach",
+   "text": "Dragging a file onto the words of a draft now attaches it. Before, it pasted a link to the file instead.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "drop-file-on-draft-text.png"
+  },
+  {
+   "name": "email-cant-name-an-attachment-to-fetch",
+   "title": "An email can't make Supermail fetch a file",
+   "text": "An email that hid its own attachment-card address in its pictures could make Supermail ask Gmail for it. Now only Supermail's own cards are fetched.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "google-no-cookies",
+   "title": "The app sends Google no cookies",
+   "text": "Signing in, checking mail and removing an account no longer keep or send any cookies to Google.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "private-address-pictures",
+   "title": "Email pictures never load from private addresses",
+   "text": "An email can no longer make Supermail reach your Mac, iPhone or home network. Pictures from unsecured or private addresses stay hidden.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "private-address-pictures.png"
+  },
+  {
+   "name": "supermail-works-offline",
+   "title": "Supermail works offline",
+   "text": "Read, archive, label and answer mail with no connection. What you do and send waits, then goes out once you're back online.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "supermail-works-offline.png"
+  },
+  {
+   "name": "email-keeps-room-over-reply",
+   "title": "The email stays readable above your reply",
+   "text": "At some text sizes, an open reply squeezed the email above it into a thin strip. It now keeps the room the reply leaves.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "email-keeps-room-over-reply.png"
+  },
+  {
+   "name": "fyi-always-inbox",
+   "title": "Tell FYI which senders belong there",
+   "text": "Pick Always Inbox or Always FYI for any sender. Mail through your company's group addresses, or that a teammate wrote in, stays in Inbox.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "fyi-always-inbox.png"
+  },
+  {
+   "name": "sign-in-page-error-logs-code-only",
+   "title": "An unfinished sign-in logs only a code",
+   "text": "When a sign-in page sends you back without finishing, the app's log keeps only a short error code, never other words.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "booby-trapped-email-no-longer-stalls-sync",
+   "title": "A booby-trapped email no longer stops new mail",
+   "text": "An email built to trip up Supermail could stop new mail arriving for that account. It now comes in like any other.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "booby-trapped-email-no-longer-stalls-sync.png"
+  },
+  {
+   "name": "copies-stay-on-device",
+   "title": "Copied attachments and pictures stay on this device",
+   "text": "A copied attachment leaves your Mac a minute after you copy something else, or when you quit. iPhone picture copies stay off your other devices.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "copies-stay-on-device.png"
+  },
+  {
+   "name": "email-text-never-stuck-loading",
+   "title": "No more emails stuck on Loading",
+   "text": "An email whose words won't download tries again by itself, then says so with a Try again button instead of showing Loading forever.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "email-text-never-stuck-loading.png"
+  },
+  {
+   "name": "fyi-tab",
+   "title": "FYI tab for mail that needs no reply",
+   "text": "Receipts, sign-in notices, alerts and newsletters move from Inbox to a new FYI tab, so you can read them and clear them in one go.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "fyi-tab.png"
+  },
+  {
+   "name": "gmail-categories-as-tabs",
+   "title": "Gmail's categories as tabs, and fix any sender",
+   "text": "Add Promotions, Social, Updates or Forums as a tab, and set any sender to Always Important or Always Other.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "gmail-categories-as-tabs.png"
+  },
+  {
+   "name": "mac-drafts-search-fixes",
+   "title": "Fuller warnings, wider suggestions, smarter from: search",
+   "text": "A draft's warning shows every word, gray suggestions wrap under a long draft's last line, and from:mike finds Mike by name too.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "mac-drafts-search-fixes.png"
+  },
+  {
+   "name": "narrow-window-subject",
+   "title": "Subjects stay readable in a narrow window",
+   "text": "In a narrow window, an email's buttons move above its subject, so the subject no longer shrinks to a letter a line.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "narrow-window-subject.png"
+  },
+  {
+   "name": "new-mail-within-seconds",
+   "title": "New mail shows up within seconds",
+   "text": "Postal now checks for new mail every 5 seconds while you're using it, and right away when your Mac wakes or reconnects.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "readable-at-larger-text-sizes",
+   "title": "Emails stay visible with bigger text",
+   "text": "Emails and drafts found through search no longer open as blank pages when you use a larger text size.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "readable-at-larger-text-sizes.png"
+  },
+  {
+   "name": "recent-rows-open",
+   "title": "Click a recent email to open it",
+   "text": "The side panel's recent emails with this person now open when you click them. Press Esc to go back to the email you were reading.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "recent-rows-open.png"
+  },
+  {
+   "name": "draft-only-conversation",
+   "title": "Drafts found in search now open",
+   "text": "A search that finds an email you started and never sent now shows the draft, marked Draft, instead of a blank page.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "draft-only-conversation.png"
+  },
+  {
+   "name": "greeting-outside-only",
+   "title": "Skip the greeting for coworkers",
+   "text": "Settings > Writing > Greeting can now greet only people outside your company, so a quick note to a coworker opens with no \"Hey\".",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "greeting-outside-only.png"
+  },
+  {
+   "name": "live-labels",
+   "title": "Labels and folders show new mail right away",
+   "text": "New mail now appears in an open label, Starred, Sent or All Mail as it arrives. No more leaving and opening it again.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "live-labels.png"
+  },
+  {
+   "name": "zoomable-picture-preview",
+   "title": "Bigger picture previews you can zoom and copy",
+   "text": "Pictures open big in their own window. Zoom in to read small print, copy the picture, and keep typing while it's open.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "zoomable-picture-preview.png"
+  },
+  {
+   "name": "answers-between-quotes",
+   "title": "Answers typed between quoted lines read right",
+   "text": "A reply with answers typed under each quoted question now shows the questions too. Before, each one hid behind its own \"\u2022\u2022\u2022\".",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "answers-between-quotes.png"
+  },
+  {
+   "name": "cc-shortcut-one-press",
+   "title": "Cmd+Shift+C goes straight to Cc",
+   "text": "One press puts the cursor in Cc, even when Cc is already showing. People on Cc or Bcc are never hidden from the draft.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "cc-shortcut-one-press.png"
+  },
+  {
+   "name": "click-outside-preview",
+   "title": "Click outside a preview to close it",
+   "text": "A picture or file preview now closes when you click the window around it. Done and Esc still close it too.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "greeting",
+   "title": "Start every draft with Hey and their name",
+   "text": "Turn on Greeting in Settings, Writing. A draft then opens with the first name of whoever is in To, and follows it until you type.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "greeting.png"
+  },
+  {
+   "name": "greeting-not-a-person",
+   "title": "No more greeting a company by name",
+   "text": "A draft to a company, product or team address, like Brightline HQ, now opens with no greeting instead of \"Hey Brightline\".",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "greeting-not-a-person.png"
+  },
+  {
+   "name": "greeting-word",
+   "title": "Pick Hey, Hi or just the name",
+   "text": "The greeting on a new draft can now open with Hey, Hi or only the first name, ending in a comma or a hyphen.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "greeting-word.png"
+  },
+  {
+   "name": "list-line-and-numbering",
+   "title": "Answer under a numbered point with Shift+Return",
+   "text": "Shift+Return in a list adds a line inside the item, with no new number. Numbered lists recount themselves when you add, delete or split items.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "list-line-and-numbering.png"
+  },
+  {
+   "name": "quoted-colors-stay",
+   "title": "Colored answers stay colored inside your reply",
+   "text": "Show the email inside your reply and its colored words keep their color. The cursor stays where you were typing.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "quoted-colors-stay.png"
+  },
+  {
+   "name": "reply-stays-in-view",
+   "title": "Your reply stays in view while you scroll",
+   "text": "A long reply no longer runs off the window. It stays under the emails with Send in view, and each scrolls on its own.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "reply-stays-in-view.png"
+  },
+  {
+   "name": "search-suggests-people",
+   "title": "Search finishes the address you start typing",
+   "text": "Start typing a name or address in search and Postal shows the person in gray. Press Tab to see every email with them.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "search-suggests-people.png"
+  },
+  {
+   "name": "search-tip-plain-words",
+   "title": "The search tip is in plain words",
+   "text": "The line under Search mail now says what to type and what it finds: mail from one person, mail with files, or exact words.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "search-tip-plain-words.png"
+  },
+  {
+   "name": "send-now",
+   "title": "Send now, right from the sent popup",
+   "text": "After you send, the popup offers Send now beside Undo, so the email goes at once. Long popups wrap instead of being cut off.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "send-now.png"
+  },
+  {
+   "name": "add-gmail-label-button",
+   "title": "Add Gmail Label says what it does",
+   "text": "In Settings, the button that turns a Gmail label you already have into an inbox tab is now called Add Gmail Label.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "add-gmail-label-button.png"
+  },
+  {
+   "name": "color-change-crash",
+   "title": "Changing colors no longer crashes the app",
+   "text": "The app could quit by surprise when a color changed while it was getting an email ready to show. That no longer happens.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "fewer-small-pauses",
+   "title": "Fewer small pauses",
+   "text": "Scrolling the inbox, sending a reply and previewing a big attachment no longer make the app stop for a moment.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "highlight-follows-mouse",
+   "title": "The highlight follows your mouse",
+   "text": "Point at an email in the list and it becomes the highlighted one, so E archives it without clicking.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "highlight-follows-mouse.png"
+  },
+  {
+   "name": "paste-email-with-pictures",
+   "title": "Paste an email with its pictures",
+   "text": "Paste an email into a new one and it keeps its bold and underline. Pictures from your inbox, Safari or Mail come along as files.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "paste-email-with-pictures.png"
+  },
+  {
+   "name": "voiceover-button-names",
+   "title": "VoiceOver names every button",
+   "text": "VoiceOver now reads a name for every icon button, address field and inbox row, even with tooltips turned off.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "group-sub-tabs",
+   "title": "See one label inside a group",
+   "text": "Under a group's tab are small tabs: All, and one per label. Click one, or press ] or [, to see only its mail.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "group-sub-tabs.png"
+  },
+  {
+   "name": "phishing-warnings",
+   "title": "Warnings before you click",
+   "text": "Emails pretending to be a company or someone you know get a red warning, and links that go somewhere else ask first.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "phishing-warnings.png"
+  },
+  {
+   "name": "settings-label-buttons",
+   "title": "Tidier buttons under your inbox tabs",
+   "text": "In Settings, the buttons under your inbox tabs stay on one line each, and move to a second row when they don't fit.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "settings-label-buttons.png"
+  },
+  {
+   "name": "all-inboxes",
+   "title": "See every inbox in one list",
+   "text": "Press \u23030 to see all your accounts' emails together, newest first, each marked with its account's letter.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "all-inboxes.png"
+  },
+  {
+   "name": "all-inboxes-labels",
+   "title": "Label and remind from All Inboxes",
+   "text": "H, L and V now work on any email in All Inboxes, using that account's own labels. No switching accounts first.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "all-inboxes-labels.png"
+  },
+  {
+   "name": "label-chips-stay-whole",
+   "title": "Labels show in full beside long subjects",
+   "text": "A label beside a long subject no longer shrinks to a sliver, wraps onto two lines or shifts when your pointer moves over the email.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "label-chips-stay-whole.png"
+  },
+  {
+   "name": "label-groups",
+   "title": "Group several labels into one tab",
+   "text": "Put several inbox tabs under one, like your sales reps under Sales. Each email says which one it's from, and Gmail stays the same.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "label-groups.png"
+  },
+  {
+   "name": "menu-labels-fold",
+   "title": "Your folders stay put in the menu",
+   "text": "In the \u2630 menu, Inbox through Trash no longer scroll away. Labels starts folded: click it to open and scroll just your labels.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "menu-labels-fold.png"
+  },
+  {
+   "name": "select-circle",
+   "title": "Selecting emails looks cleaner",
+   "text": "Pointing at an email shows an empty circle the size of its dot. A selected email gets a normal checkbox.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "select-circle.png"
+  },
+  {
+   "name": "archive-wording",
+   "title": "Archive instead of Mark Done",
+   "text": "E, its buttons and the iPhone swipe now say Archive, and the Done list is called Archive. \u21e7E is Move to Inbox.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "archive-wording.png"
+  },
+  {
+   "name": "closing-the-window-keeps-mail-coming",
+   "title": "Closing the window keeps mail coming",
+   "text": "Close the window and mail keeps coming until you press \u2318Q. The Dock icon or \u2318N brings it back as you left it.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "closing-the-window-keeps-mail-coming.png"
+  },
+  {
+   "name": "every-attached-file-shows",
+   "title": "Every attached file shows up",
+   "text": "Files sent without a name, small files packed inside the email, and attached web pages now get their own card instead of disappearing.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "every-attached-file-shows.png"
+  },
+  {
+   "name": "hidden-pictures-show-as-files",
+   "title": "Pictures an email hid now show up",
+   "text": "A picture an email only loads late, or uses as a background, now shows or appears as a file. Forwarded iPhone photos go as files.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "hidden-pictures-show-as-files.png"
+  },
+  {
+   "name": "inline-reply-pictures",
+   "title": "Inline replies keep the email's pictures",
+   "text": "When you answer inside the email you're replying to, its pictures now go with your reply as attachments instead of being dropped.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "instant-switches-current-searches",
+   "title": "Instant account switches, up-to-date remembered searches",
+   "text": "Switching to another account no longer flashes an empty list. Reopening a search shows its emails as they are now.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "iphone-last-email-holds-still",
+   "title": "The email you're reading holds still",
+   "text": "A picture loading or failing higher up in the same email no longer moves the words you're reading, even in the last email.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "iphone-last-email-holds-still.png"
+  },
+  {
+   "name": "learn-how",
+   "title": "Learn How walks you through one job",
+   "text": "Help \u2192 Learn How shows you, step by step, how to make, color and remove inbox tabs, on a practice inbox. Your real mail stays untouched.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "learn-how.png"
+  },
+  {
+   "name": "long-emails-show-in-full",
+   "title": "Long emails show in full",
+   "text": "Long emails that showed only a preview line now show in full. If part won't download, the email says so and tries again.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "long-emails-show-in-full.png"
+  },
+  {
+   "name": "mac-new-mail-notifications",
+   "title": "New mail notifications on your Mac",
+   "text": "Important mail now pops up on your Mac with who it's from and the subject. Click it to open the email.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "mac-new-mail-notifications.png"
+  },
+  {
+   "name": "odd-emails-never-freeze",
+   "title": "A strange email can't freeze the app anymore",
+   "text": "Some emails, built oddly or on purpose, froze the app for seconds or minutes. Now they open, sync and get replies like any other.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "odd-emails-never-freeze.png"
+  },
+  {
+   "name": "older-emails-fill-in",
+   "title": "Older emails fill in when you open them",
+   "text": "Emails downloaded before this update read again once when you open them, so missing text and files appear. Saved pictures aren't downloaded again.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "older-emails-keep-their-own-photos",
+   "title": "Older emails keep their own photos",
+   "text": "When two emails in a conversation reuse a photo's name, each now shows its own. Mail archived or deleted elsewhere no longer comes back.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "open-in-gmail",
+   "title": "Open any email in Gmail",
+   "text": "Press Cmd+K and pick Open in Gmail to see the email you're reading in Gmail on the web, signed in to the right account.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "open-in-gmail.png"
+  },
+  {
+   "name": "paste-keeps-bold",
+   "title": "Pasted text keeps its bold and links",
+   "text": "Copy text with bold, italics, underlines, links or lists and \u2318V keeps them in your email. \u21e7\u2318V pastes plain text.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "paste-keeps-bold.png"
+  },
+  {
+   "name": "replies-never-add-hidden-recipients",
+   "title": "Replies never pick up a hidden recipient",
+   "text": "A booby-trapped subject line in someone's email can no longer slip a hidden copy of your reply to anyone else.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "reply-holds-still-while-typing",
+   "title": "Read the conversation while you type",
+   "text": "Typing a long reply no longer slides the conversation away. The page moves only when your cursor would leave the window.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "reply-holds-still-while-typing.png"
+  },
+  {
+   "name": "reply-quote-like-gmail",
+   "title": "Replies show the email like Gmail does",
+   "text": "Click \u2022\u2022\u2022 under a reply to see the email you're answering, formatted, with room to type above it or answer under any line.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "reply-quote-like-gmail.png"
+  },
+  {
+   "name": "right-account-right-recipients",
+   "title": "New emails start blank, sent as you picked",
+   "text": "Compose always opens a blank email, and unsent ones wait in Drafts. A picked alias keeps its signature, and replies never add someone nobody picked.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "search-keeps-part-word-matches",
+   "title": "Searching part of a word keeps its results",
+   "text": "Gmail only matches whole words. Emails your Mac found for part of a word now stay, under Also on this Mac.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "search-keeps-part-word-matches.png"
+  },
+  {
+   "name": "send-and-archive",
+   "title": "Send & Archive, under its plain name",
+   "text": "The button beside Send (\u2318\u21e7\u21b5) is now called Send & Archive. It sends your reply and archives the conversation, same as before.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "send-and-archive.png"
+  },
+  {
+   "name": "sends-go-out-once",
+   "title": "Every email you send goes out once",
+   "text": "Quitting right after Send now sends it first. If a send can't be confirmed, you're told plainly, and it's never sent twice.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "sends-go-out-once.png"
+  },
+  {
+   "name": "shift-click-select-boxes",
+   "title": "Shift-click a box to select a run",
+   "text": "Click one email's box, then Shift-click another's, and every email between is selected. Shift-click a ticked box to unselect the run.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "shift-click-select-boxes.png"
+  },
+  {
+   "name": "smoother-launch-and-attaching",
+   "title": "Smoother launches, account removal and photo attaching",
+   "text": "The app no longer slows down after it opens, pauses while removing a big account, or stalls on iPhone while photos attach.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "smoother-launch-and-attaching.png"
+  },
+  {
+   "name": "sync-catches-up-after-time-away",
+   "title": "Mail changed elsewhere catches up after time away",
+   "text": "After time away, archived mail changed on another device updates too. One email Gmail won't send no longer stalls syncing.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "tall-newsletters-hold-still",
+   "title": "Tall newsletters stop growing",
+   "text": "An email with a banner as tall as the window now stays one window tall, instead of growing while you read it.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "tall-newsletters-hold-still.png"
+  },
+  {
+   "name": "text-after-a-file-shows",
+   "title": "Text after an attached file now shows",
+   "text": "Words written below an attachment no longer disappear, and an email whose formatted version is blank shows its plain text instead of nothing.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "text-after-a-file-shows.png"
+  },
+  {
+   "name": "undo-puts-back-exactly",
+   "title": "Undo puts back exactly what was there",
+   "text": "Z puts an email back exactly where it was, labels included. Quitting or a Gmail hiccup no longer leaves an email in the wrong place.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": null
+  },
+  {
+   "name": "forward-stops-on-missing-files",
+   "title": "Forwards never drop a photo quietly",
+   "text": "If a photo or file from the original can't be downloaded, the forward stops. Try again, or remove it and send.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "forward-stops-on-missing-files.png"
+  },
+  {
+   "name": "pasted-photos-show-as-cards",
+   "title": "Photos in an email are never missing",
+   "text": "Photos pasted into an email show as files to open or download while they load, with no blank gap. They now load first.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "pasted-photos-show-as-cards.png"
+  },
+  {
+   "name": "attachment-download-buttons",
+   "title": "Download attachments with one click",
+   "text": "Every attachment now has a download button, and Download All saves them all. Files save to Downloads without opening, and right-click offers more.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "attachment-download-buttons.png"
+  },
+  {
+   "name": "copy-subject",
+   "title": "Copy an email's subject",
+   "text": "Highlight any part of the subject above a conversation and press Cmd+C, or use Cmd+K \u2192 Copy Subject for all of it.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "copy-subject.png"
+  },
+  {
+   "name": "paperclip-on-folded-emails",
+   "title": "See which emails in a conversation have files",
+   "text": "A paperclip now sits by the date on every email with a file, folded or open. Logos and pictures in the text don't count.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "paperclip-on-folded-emails.png"
+  },
+  {
+   "name": "plain-text-fills-the-pane",
+   "title": "Plain-text emails fill the page",
+   "text": "Emails sent as plain text no longer squeeze into a narrow column. Their sentences now run the full width, with paragraphs and lists kept.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "plain-text-fills-the-pane.png"
+  },
+  {
+   "name": "reminder-dot-color",
+   "title": "Pick a color for reminder dots",
+   "text": "Settings \u2192 Colors \u2192 Separate colors now has Reminder dot. It matches the selection stripe until you pick a color for it.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "reminder-dot-color.png"
+  },
+  {
+   "name": "side-panel-links",
+   "title": "Click a sender's address or website",
+   "text": "In the side panel, click someone's address to write them a new email, or their company's domain to open its website.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "side-panel-links.png"
+  },
+  {
+   "name": "trash-beside-done",
+   "title": "Trash sits right next to Done",
+   "text": "Open an email and the trash can is now right beside the checkmark, so deleting takes one click. Z brings it back.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "trash-beside-done.png"
+  },
+  {
+   "name": "account-picture-mac",
+   "title": "Give each account its own picture",
+   "text": "In Settings, pick a photo for any account or drop one on its circle. It shows beside the account, on this Mac only.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "account-picture-mac.png"
+  },
+  {
+   "name": "apple-mail-attachments",
+   "title": "Files sent from Apple Mail always show",
+   "text": "Files sent from Apple Mail now always show as attachments, even in a reply with nothing typed. Those replies used to look empty.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "apple-mail-attachments.png"
+  },
+  {
+   "name": "color-themes",
+   "title": "Save your own color themes",
+   "text": "Change any color in Settings \u2192 Colors and save the mix as a theme of your own, then switch themes in one click.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "color-themes.png"
+  },
+  {
+   "name": "compose-button",
+   "title": "A Compose button at the top",
+   "text": "Click the pencil at the top right to start a new email. It does the same as pressing C.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "compose-button.png"
+  },
+  {
+   "name": "dark-mode-plain-notices",
+   "title": "Plain emails match dark mode",
+   "text": "Emails that bring their own dark colors now read in your theme's colors, and text on a white email never touches its edge.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "dark-mode-plain-notices.png"
+  },
+  {
+   "name": "double-click-copies-address",
+   "title": "Double-click an address to copy just it",
+   "text": "In an email's From and To details, a double click picks the whole email address, so Cmd+C copies only the address.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "double-click-copies-address.png"
+  },
+  {
+   "name": "download-attachments",
+   "title": "Download all of an email's attachments",
+   "text": "Download all saves every attachment in an email to Downloads at once. A picture you open big has a Download button too (Cmd+S).",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "download-attachments.png"
+  },
+  {
+   "name": "no-gray-haze-in-cards",
+   "title": "No gray haze in Cmd+K, toasts or replies",
+   "text": "Cmd+K, search, the Undo toast, To's suggestions, the reply box and the other boxes no longer have a gray smudge around their words.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "no-gray-haze-in-cards.png"
+  },
+  {
+   "name": "resize-side-panel",
+   "title": "Make the side panel wider or narrower",
+   "text": "In an open email, drag the left edge of the panel on the right to resize it. Double-click the edge to put it back.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "resize-side-panel.png"
+  },
+  {
+   "name": "select-with-the-mouse",
+   "title": "Select several emails with the mouse",
+   "text": "Click the box by an email, Command-click, or Shift-click a run to select several. Star, Read and Trash show when you point at an email.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "select-with-the-mouse.png"
+  },
+  {
+   "name": "shortcuts-and-buttons",
+   "title": "Buttons for everything, or keys only",
+   "text": "Star, Trash, Search, formatting and more now have buttons you can click. To keep just the keys, pick Shortcuts only in Settings, Shortcuts.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "shortcuts-and-buttons.png"
+  },
+  {
+   "name": "slash-slash-advanced-search",
+   "title": "Press / twice for Advanced Search",
+   "text": "Press / to search, then / again before typing anything, and the Advanced Search fields open. Once you've typed, / types normally.",
+   "version": "0.2.2041",
+   "date": "10/20/26",
+   "picture": "slash-slash-advanced-search.png"
+  },
+  {
    "name": "private-settings-and-log",
    "title": "Your settings and log stay encrypted",
    "text": "Your email addresses, label names and log no longer sit in plain files or iPhone backups. Help \u2192 Privacy Policy opens our privacy page.",
