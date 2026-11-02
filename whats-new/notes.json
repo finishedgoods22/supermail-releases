@@ -1,6 +1,318 @@
 {
  "notes": [
   {
+   "name": "filed-away-mail-saved",
+   "title": "Mail filed away during a break gets saved",
+   "text": "After Postal loses track of Gmail for a while, it now also saves mail that skipped your inbox, so search can find it.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": null
+  },
+  {
+   "name": "inbox-first-at-launch",
+   "title": "Your inbox shows first when you open Postal",
+   "text": "On a big mailbox the app could sit on a spinner after opening. Your inbox now comes up first, and the rest waits its turn.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": null
+  },
+  {
+   "name": "supermail-is-now-postal",
+   "title": "Supermail is now Postal",
+   "text": "Same app, new name and icon. Your mail, accounts and settings stay right where they are, and updates keep coming.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "supermail-is-now-postal.png"
+  },
+  {
+   "name": "every-label-on-every-row",
+   "title": "Every label shows on every email",
+   "text": "Search results and lists now show all of an email's labels, Super Labels included. Only the label you're already looking at is left off.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "every-label-on-every-row.png"
+  },
+  {
+   "name": "new-mail-first-after-a-backlog",
+   "title": "New mail no longer waits behind old changes",
+   "text": "After lots of changes elsewhere, the iPhone could fall hours behind. Each check now brings new mail first and keeps its progress.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": null
+  },
+  {
+   "name": "senders-cant-see-you-opened",
+   "title": "Senders can't see when you open their email",
+   "text": "Tracking pictures never load. Turn on Ask Before Loading Pictures in Settings, Privacy, and no picture loads until you choose Load Pictures.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "senders-cant-see-you-opened.png"
+  },
+  {
+   "name": "too-big-warning-clears",
+   "title": "The too-big warning clears when files go",
+   "text": "Remove a file and the warning that the email is over 25 MB goes away.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "too-big-warning-clears.png"
+  },
+  {
+   "name": "preview-text-under-subject",
+   "title": "Preview text under the subject",
+   "text": "Settings, Layout now lets you show each email's preview on its own line under the subject, instead of beside it.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "preview-text-under-subject.png"
+  },
+  {
+   "name": "select-all-keeps-email-readable",
+   "title": "Selecting all no longer grays out an email",
+   "text": "Pressing Cmd+A or dragging across an open email used to cover it in a faded gray box. The email now stays readable.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "select-all-keeps-email-readable.png"
+  },
+  {
+   "name": "settings-layout-page",
+   "title": "A Layout page in Settings",
+   "text": "Settings has a new Layout page for where things sit in the window. The choice between shortcuts only and buttons moved there.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "settings-layout-page.png"
+  },
+  {
+   "name": "settings-sidebar-clears-window-buttons",
+   "title": "Settings list stays clear of the window buttons",
+   "text": "Scrolling the Settings list with many accounts slid its rows behind the red, yellow and green buttons. They now stop just below them.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "settings-sidebar-clears-window-buttons.png"
+  },
+  {
+   "name": "side-panel-left-or-right",
+   "title": "Side panel on the left or right",
+   "text": "Settings, Layout now puts an open email's side panel on the left or the right.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "side-panel-left-or-right.png"
+  },
+  {
+   "name": "too-big-attachments-caught",
+   "title": "Too-big attachments are caught before you send",
+   "text": "Attach files past Gmail's 25 MB and you're told right away, instead of sending an email Gmail refuses.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "too-big-attachments-caught.png"
+  },
+  {
+   "name": "undo-beside-long-messages",
+   "title": "Undo sits beside long messages",
+   "text": "A message at the bottom that runs onto two lines keeps Undo beside it, so it stays small and stops covering your inbox.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "undo-beside-long-messages.png"
+  },
+  {
+   "name": "fyi-move-to-inbox",
+   "title": "Move to Inbox works on FYI emails",
+   "text": "Press Shift-E on an email in FYI and that conversation moves to your Inbox tab, until you archive it.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "fyi-move-to-inbox.png"
+  },
+  {
+   "name": "greeting-skip",
+   "title": "Skip the greeting for chosen people",
+   "text": "List people or companies, like acme.com, in Settings > Writing, and drafts to them open with no greeting.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "greeting-skip.png"
+  },
+  {
+   "name": "new-mail-never-stops-coming",
+   "title": "New mail never stops coming in",
+   "text": "A stuck mail check, or one email that wouldn't download, could stop an inbox updating for hours. Postal now moves past both by itself.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": null
+  },
+  {
+   "name": "notifications-bottom-left-with-tips",
+   "title": "Notifications stay longer and teach shortcuts",
+   "text": "Notifications now sit bottom left for 30 seconds with an x to clear them. Click the same button often and its keyboard shortcut shows.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "notifications-bottom-left-with-tips.png"
+  },
+  {
+   "name": "search-box-tabs",
+   "title": "A bigger search box, with tabs",
+   "text": "The search box is bigger and remembers the size you drag it to. Tabs split what it finds by where your words appear.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "search-box-tabs.png"
+  },
+  {
+   "name": "text-shortcuts",
+   "title": "Type a shortcut, get the whole reply",
+   "text": "Save text in Settings, Text Shortcuts. Type ;ty in a draft and your whole thank-you goes in, on your Mac and iPhone.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "text-shortcuts.png"
+  },
+  {
+   "name": "undo-brings-back-subject",
+   "title": "Cmd+Z brings back a deleted subject",
+   "text": "Deleted a draft's subject or a name in To by accident? Cmd+Z brings it back, even after you've clicked into the message.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "undo-brings-back-subject.png"
+  },
+  {
+   "name": "discard-draft-from-conversation",
+   "title": "Discard a draft from its conversation or Drafts",
+   "text": "Press \u2318\u21e7. on a draft you wrote in a conversation or in Drafts to discard it, and Z brings it back. Return opens it.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "discard-draft-from-conversation.png"
+  },
+  {
+   "name": "faster-email-tooltips",
+   "title": "An email's full date shows right away",
+   "text": "Rest the pointer on an email's date, sender or file and its details appear almost at once, instead of after a second or two.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "faster-email-tooltips.png"
+  },
+  {
+   "name": "paypal-credit-not-phishing",
+   "title": "PayPal Credit emails aren't called phishing",
+   "text": "Mail from the bank behind PayPal Credit, the Venmo card and the Amazon Store Card no longer gets a phishing warning once Gmail confirms it.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "paypal-credit-not-phishing.png"
+  },
+  {
+   "name": "search-box-wraps",
+   "title": "Long searches wrap so you can read them",
+   "text": "A long search wraps onto up to three lines instead of scrolling away, and the tip under the box lists every way to search.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "search-box-wraps.png"
+  },
+  {
+   "name": "sending-in-sent",
+   "title": "Sent shows emails while they're still sending",
+   "text": "An email waiting out Undo Send sits at the top of Sent, marked Sending. Press Z on it to take it back.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "sending-in-sent.png"
+  },
+  {
+   "name": "subject-matches-first",
+   "title": "Search puts emails named for it first",
+   "text": "Search an order number and the emails with it in the subject come first, above newer ones that only mention it.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "subject-matches-first.png"
+  },
+  {
+   "name": "archive-every-search-match",
+   "title": "Archive every email a search finds",
+   "text": "Archive every match of a search at once, not just the first 50, after a count you confirm. Scrolling loads more results too.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "archive-every-search-match.png"
+  },
+  {
+   "name": "faster-tooltips",
+   "title": "Tooltips show up right away",
+   "text": "Rest the pointer on a button and its tooltip appears almost at once, instead of after a second's wait.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": null
+  },
+  {
+   "name": "settings-sidebar-scrolls",
+   "title": "Settings fits every account you add",
+   "text": "With many accounts, the Settings list slid up under the window buttons and Add Account fell off the bottom. Now it scrolls.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "settings-sidebar-scrolls.png"
+  },
+  {
+   "name": "cmd-k-typing-keeps-up",
+   "title": "No gray predictions in Cmd+K",
+   "text": "Cmd+K and the other pickers no longer show Apple's gray predictions, which could slow typing. Autocorrect still works.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": null
+  },
+  {
+   "name": "commands-without-apostrophes",
+   "title": "Find commands without typing the apostrophe",
+   "text": "Type \"whats new\" in Cmd+K and What's New comes up, same as with the apostrophe. Curly apostrophes work too.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "commands-without-apostrophes.png"
+  },
+  {
+   "name": "drafts-show-in-their-email",
+   "title": "Your drafts show inside the email",
+   "text": "An email marked Draft now shows your unsent reply under it when you open it, instead of nothing.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "drafts-show-in-their-email.png"
+  },
+  {
+   "name": "fyi-replaces-other",
+   "title": "FYI replaces the Other tab",
+   "text": "Mail that used to sit in Other now lands in FYI, beside Inbox. One less tab to check, and nothing to set up.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "fyi-replaces-other.png"
+  },
+  {
+   "name": "labels-match-any-word",
+   "title": "Labels can match any of your words",
+   "text": "New labels can take mail with any one of several names or phrases. Pick \"Any of these words\" instead of needing all of them.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "labels-match-any-word.png"
+  },
+  {
+   "name": "pictures-in-your-email",
+   "title": "Put pictures right in your email",
+   "text": "Paste or drop a picture to put it in your email, or drop it at the bottom to attach it. Attached pictures now show big.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "pictures-in-your-email.png"
+  },
+  {
+   "name": "sent-shows-every-email",
+   "title": "Sent shows everything you sent, newest first",
+   "text": "Emails you sent today show up in Sent right away, and the list reads newest first by the time on each row.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "sent-shows-every-email.png"
+  },
+  {
+   "name": "all-inboxes-tab-switch",
+   "title": "Hide the All Inboxes tab if you want",
+   "text": "Settings can now take All Inboxes out of the top bar, beside the FYI switch. Control-0 and the account menu still open it.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "all-inboxes-tab-switch.png"
+  },
+  {
+   "name": "typed-addresses-are-links",
+   "title": "Typed-out addresses are links you can click",
+   "text": "Web and email addresses typed into an email are now links, and a Google redirect link shows the page it really opens.",
+   "version": "0.2.2387",
+   "date": "11/1/26",
+   "picture": "typed-addresses-are-links.png"
+  },
+  {
    "name": "addresses-show-as-links",
    "title": "Web and email addresses look like links",
    "text": "An address written out in an email now shows in your link color, even when the email styled it like plain text.",
