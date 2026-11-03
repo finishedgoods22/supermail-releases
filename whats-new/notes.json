@@ -1,6 +1,30 @@
 {
  "notes": [
   {
+   "name": "search-opens-your-way",
+   "title": "Search opens the way you pick",
+   "text": "Choose full page, a sidebar or a floating box on Settings > Layout. Every way to search now opens that one.",
+   "version": "0.2.2447",
+   "date": "11/2/26",
+   "picture": "search-opens-your-way.png"
+  },
+  {
+   "name": "search-results-without-the-wait",
+   "title": "Search results no longer keep you waiting",
+   "text": "On a big mailbox, results could take 30 seconds to appear. The letters you typed along the way no longer hold them up.",
+   "version": "0.2.2447",
+   "date": "11/2/26",
+   "picture": null
+  },
+  {
+   "name": "typing-never-stalls",
+   "title": "Typing in a reply no longer stalls",
+   "text": "Keys you type no longer stop for a second and land all at once while the app catches up on mail.",
+   "version": "0.2.2447",
+   "date": "11/2/26",
+   "picture": null
+  },
+  {
    "name": "filed-away-mail-saved",
    "title": "Mail filed away during a break gets saved",
    "text": "After Postal loses track of Gmail for a while, it now also saves mail that skipped your inbox, so search can find it.",
