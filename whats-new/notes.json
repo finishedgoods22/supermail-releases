@@ -1,6 +1,174 @@
 {
  "notes": [
   {
+   "name": "pasted-subjects-find-the-email",
+   "title": "Pasting a subject finds the email",
+   "text": "Words with a dash, an & or \"Re:\" in them now find saved mail as you type, instead of an empty list.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "pasted-subjects-find-the-email.png"
+  },
+  {
+   "name": "see-your-past-searches",
+   "title": "See your past searches",
+   "text": "Press / with nothing typed to see what you searched for. Return searches again, \u2192 edits it, and \u2318\u232b removes it.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "see-your-past-searches.png"
+  },
+  {
+   "name": "slash-edits-your-search",
+   "title": "Press / to edit your search",
+   "text": "On a search's results, / brings your words back to change, with the same results and tab. Esc leaves everything as it was.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "slash-edits-your-search.png"
+  },
+  {
+   "name": "drag-tabs-to-reorder",
+   "title": "Drag tabs to put them in your order",
+   "text": "Drag a tab along the top bar and drop it where you want it. Inbox and FYI stay first.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "drag-tabs-to-reorder.png"
+  },
+  {
+   "name": "feedback-pictures",
+   "title": "Add pictures to your feedback",
+   "text": "Send Feedback now takes pictures. Paste a screenshot or click the paperclip, and it goes along with your note.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "feedback-pictures.png"
+  },
+  {
+   "name": "long-searches-find-the-email",
+   "title": "Long searches find the exact email first",
+   "text": "Type three or more words from an email's subject and that email comes first, above newer mail that only mentions them.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "long-searches-find-the-email.png"
+  },
+  {
+   "name": "scroll-bars-float",
+   "title": "Scroll bars stay out of your way",
+   "text": "With a mouse plugged in, scroll bars now show only while you scroll. The side panel's edge is also easier to grab and drag.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "scroll-bars-float.png"
+  },
+  {
+   "name": "search-starts-with-your-words",
+   "title": "Search starts with your exact words",
+   "text": "What you type is what's searched, and the list stops changing as you look. The AI steps in when your words find nothing saved.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "search-starts-with-your-words.png"
+  },
+  {
+   "name": "sent-lists-like-gmail",
+   "title": "Sent is in Gmail's order",
+   "text": "Sent, Starred and labels keep Gmail's order: by your sent or starred email, not a later reply. Sent rows name who you wrote to.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "sent-lists-like-gmail.png"
+  },
+  {
+   "name": "settings-layout-own-row",
+   "title": "Layout has its own place in Settings",
+   "text": "Layout is now a row in the Settings sidebar, so you no longer open Appearance to change the email list, side panel, search or buttons.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "settings-layout-own-row.png"
+  },
+  {
+   "name": "tab-switches-search-tabs",
+   "title": "Tab switches search tabs as you type",
+   "text": "Press Tab to move between All, In the email and In the subject before you press Return. \u2192 now takes a suggested name.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "tab-switches-search-tabs.png"
+  },
+  {
+   "name": "email-header-date-and-time",
+   "title": "See when an email came, at a glance",
+   "text": "The top right of every email now shows the date and the time, so you no longer have to open the details to see it.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "email-header-date-and-time.png"
+  },
+  {
+   "name": "floating-search-resize-corners",
+   "title": "Resize floating search from any corner",
+   "text": "Drag any corner or side of the floating search box to make it bigger or smaller. It stays that size next time.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "floating-search-resize-corners.png"
+  },
+  {
+   "name": "gmail-style-email-list",
+   "title": "Make your email list look like Gmail",
+   "text": "Pick Gmail style on Settings > Layout for one-line rows with checkboxes, stars and bold unread mail. Postal's own look stays the default.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "gmail-style-email-list.png"
+  },
+  {
+   "name": "gmail-style-file-chips",
+   "title": "See file names under emails in Gmail style",
+   "text": "Gmail style now comes in Default, with file names under each email, or Comfortable, with a paperclip.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "gmail-style-file-chips.png"
+  },
+  {
+   "name": "search-keeps-your-results",
+   "title": "Finishing a word keeps your search results",
+   "text": "Finishing a word no longer swaps your results for an empty list. After Return, Tab moves between All, In the email and In the subject.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "search-keeps-your-results.png"
+  },
+  {
+   "name": "search-newest-first",
+   "title": "Search shows your newest emails first",
+   "text": "A word in lots of old subjects no longer buries today's emails. Tabs split each search into In the email and In the subject.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "search-newest-first.png"
+  },
+  {
+   "name": "search-tabs-after-return",
+   "title": "Search tabs stay after you press Return",
+   "text": "Results now have All, In the email and In the subject tabs. Press ] or [ to switch, or click one.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "search-tabs-after-return.png"
+  },
+  {
+   "name": "switches-on-look-on",
+   "title": "Switches that are on now look on",
+   "text": "In dark mode with a gray color picked, a switch turned on looked turned off. Now it turns green.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "switches-on-look-on.png"
+  },
+  {
+   "name": "settings-simpler-with-search",
+   "title": "Settings is simpler, and you can search it",
+   "text": "Settings has fewer pages, each answering one plain question. Type in the new search box and it takes you straight to the setting.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "settings-simpler-with-search.png"
+  },
+  {
+   "name": "shift-tab-list-item",
+   "title": "Shift+Tab brings a sub-bullet back out",
+   "text": "Tab a list item in by accident? Shift+Tab moves it back out a level, so a sub-bullet under item 4 becomes item 5.",
+   "version": "0.2.2657",
+   "date": "11/5/26",
+   "picture": "shift-tab-list-item.png"
+  },
+  {
    "name": "search-opens-your-way",
    "title": "Search opens the way you pick",
    "text": "Choose full page, a sidebar or a floating box on Settings > Layout. Every way to search now opens that one.",
